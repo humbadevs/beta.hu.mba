@@ -4,7 +4,7 @@
 <div id="page">
 <div class="flex h-screen">
   <div class="m-auto">
-    <p class="text-humba-pink font-semibold">welcome!</p>
+    <p class="p-4 text-humba-pink font-semibold">we are working on the beta.</p>
   </div>
 </div>
 </div>
