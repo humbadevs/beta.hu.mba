@@ -1,0 +1,29 @@
+name: Jigsaw Build + Deploy 
+on: 
+  push:
+    branches: master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Node Setup
+      uses: actions/setup-node@v1.1.0
+    - name: Composer Setup
+      uses: nanasess/composer-installer-action@v2.0.0
+    - name: Install packages
+      run: |
+        npm i
+        composer install
+    - name: composer-installer-action
+      uses: nanasess/composer-installer-action@v2.0.0
+    - name: Build npm app
+      run: npm run production
+    - name: deploy-via-scp
+      uses: horochx/deploy-via-scp@master
+      with:
+        local: ./build_production
+        remote: /home/humba/host/website/
+        host: server.max.berlin
+        user: humba
+        key: ${{ secrets.HUMBA_PRIVATE_SSH_KEY }}
