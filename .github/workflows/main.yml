@@ -1,5 +1,5 @@
-name: Jigsaw Build + Deploy 
-on: 
+name: Jigsaw Build + Deploy
+on:
   push:
     branches: master
 jobs:
@@ -23,7 +23,7 @@ jobs:
       uses: horochx/deploy-via-scp@master
       with:
         local: ./build_production
-        remote: /home/humba/host/website/
+        remote: /home/humba/host/beta/
         host: server.max.berlin
         user: humba
         key: ${{ secrets.HUMBA_PRIVATE_SSH_KEY }}
