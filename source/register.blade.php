@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="flex justify-center md:block px-16 pt-20">
-    <a href='/'><img class="h-10" src="/assets/images/logo.png" alt="Logo"></a>
+    <a href='/'><img class="h-10" src="/assets/images/logo-pink-full.svg" alt="Logo"></a>
 </div>
 
 <div class="pt-16 md:pt-32">
