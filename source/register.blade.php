@@ -16,7 +16,7 @@
   <span class="block">
     <div class="md:flex md:pl-24 sm:block">
         <div class="flex-1 sm:text-center md:text-right py-2 m-2">
-        <form action="https://api.hu.mba/waitinglist/apply" method="post" class="flex justify-center md:block">
+        <form action="https://api.hu.mba/waitinglist/apply/" method="post" class="flex justify-center md:block">
                 <input required class="flex-1 mx-4 md:mx-0 shadow appearance-none border rounded-lg py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type='text' placeholder="vorname.nachname" name="hum_id" size='23' maxlength="60"></input>
         </div>
                 <div class="flex-1 justify-center md:block text-center py-2 m-2">
