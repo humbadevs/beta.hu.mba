@@ -56,7 +56,7 @@
         	o.async=1; o.src=t; o.id='fathom-script';
         	m.parentNode.insertBefore(o,m)
         })(document, window, '//analytics.max.berlin/tracker.js', 'fathom');
-        fathom('set', 'siteId', 'GVGUD');
+        fathom('set', 'siteId', 'GXTQM');
         fathom('trackPageview');
     </script>
 </html>
