@@ -22,7 +22,7 @@
     <p class="font-bold my-4">Kontakt:</p>
     <ul class="list-none">
       <li>Telefon: 030 36 46 80 48</li>
-      <li>E-Mail: legal (at) max.berlin</li>
+      <li>E-Mail: serious (at) max.berlin</li>
     </ul>
   </div>
 </div>
