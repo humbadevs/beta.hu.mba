@@ -39,11 +39,11 @@
               setTimeout(function(){
                 document.getElementById("page").style.display = "block";
                 document.getElementById("loading").style.display = "none";
-              }, 3500);
+              }, 1000); // 3500
             }
         </script>
     </head>
-    <body  onload="myFunction()" class="bg-humba-black">
+    <body  onload="myFunction()" class="">
         @yield('body')
     </body>
     <script>
