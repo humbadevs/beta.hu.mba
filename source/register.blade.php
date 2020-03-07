@@ -26,7 +26,7 @@
 
           <span class="block text-center px-4 py-2"><input type="submit" value="Anmelden" name="submit" class="flex-2 shadow-lg text-center object-center bg-humba-pink hover:bg-red-400 text-white font-bold py-2 px-20 rounded-lg"></span>
           <div class="flex justify-center">
-            <span class="block text-center px-4 py-2 text-gray-400 md:w-1/3 text-xs">Mit dem Absenden deiner Daten erklärst du dich einverstanden mit unseren Datenschutzrichtlinien und den Nutzungsbedinungen.</span>
+            <span class="block text-center px-4 py-2 text-gray-400 md:w-1/3 text-xs">Mit dem Absenden deiner Daten erklärst du dich einverstanden mit unseren Datenschutzrichtlinien und den Nutzungsbedingungen.</span>
           </div>
         </form>
 </div>
