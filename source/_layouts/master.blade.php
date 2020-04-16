@@ -9,8 +9,8 @@
         <link rel="shortcut icon" type="image/svg" href="/assets/images/logo.png" />
         <!-- Primary Meta Tags -->
         <title>Humba - Mache mehr aus deiner Pause</title>
-        <meta name="title" content="Humba - Mache mehr aus deiner Pause">
-        <meta name="description" content="Humba ist die App mit der du deine Freistunde oder Pause endlich sinnvoller verbringen kannst. Suche einfach Andere, die auch frei haben, lerne neue Menschen kennen, lass dir von uns Aktivitäten vorschlagen oder gehe mit günstiger bei unseren Partnern essen.">
+        <meta name="title" content="Humba - Mache mehr aus deiner freien Zeit">
+        <meta name="description" content="Humba ist die App mit der du dich mit den anderen Menschen aus deiner Schule auf eine leichte Art und Weise verbinden kannst. Digital, easy und spaßig.">
         <meta name="theme-color" content="#FA7268" />
         <style media="screen">
             body {
