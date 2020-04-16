@@ -24,6 +24,6 @@ jobs:
       with:
         local: ./build_production
         remote: /home/humba/host/beta/
-        host: server.max.berlin
+        host: ${{ secrets.SERVER_IP }}
         user: humba
         key: ${{ secrets.HUMBA_PRIVATE_SSH_KEY }}
